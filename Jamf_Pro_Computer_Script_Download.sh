@@ -14,12 +14,13 @@
 # Jamf Pro Server Objects:
 #
 # Scripts: Read
+# https://derflounder.wordpress.com/2018/12/08/backing-up-macos-scripts-from-jamf-pro/
 
 # If you choose to specify a directory to save the downloaded scripts into,
 # please enter the complete directory path into the ScriptDownloadDirectory
 # variable below.
 
-ScriptDownloadDirectory=""
+ScriptDownloadDirectory="/Users/jtse/Documents/GitHub/Jamf-Scripts/Backups"
 
 # If the ScriptDownloadDirectory isn't specified above, a directory will be
 # created and the complete directory path displayed by the script.
@@ -133,13 +134,13 @@ fi
 # The Jamf Pro URL
 
 # Set the Jamf Pro URL here if you want it hardcoded.
-jamfpro_url=""	    
+jamfpro_url="https://rstudio.jamfcloud.com"	    
 
 # Set the username here if you want it hardcoded.
-jamfpro_user=""
+jamfpro_user="jtse"
 
 # Set the password here if you want it hardcoded.
-jamfpro_password=""	
+jamfpro_password="BUG1ubv!dej4tyq.pbf"	
 
 # If you do not want to hardcode API information into the script, you can also store
 # these values in a ~/Library/Preferences/com.github.jamfpro-info.plist file.
